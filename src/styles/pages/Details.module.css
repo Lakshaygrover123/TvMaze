@@ -1,0 +1,27 @@
+.Container{
+    padding: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: black;
+    height: 80vh;
+}
+
+.Imgsection img{
+    width: 330px;
+    height: 320px;
+    margin: 20px 35px;
+}
+
+.Textsection h2{
+    font-size: 2.2rem;
+    font-weight: 600;
+}
+
+.Textsection span{
+    font-size: 18px;
+}
+
+.Textsection p{
+    font-size: 16px;
+}

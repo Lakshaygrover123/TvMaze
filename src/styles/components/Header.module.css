@@ -1,0 +1,45 @@
+.Container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0px auto;
+    background: black;
+    box-shadow: 0 -6px 10px 5px rgba(0,0,0,0.5);
+}
+
+.logo h1 {
+    font-size: 2.2rem;
+    font-weight: 600;
+    /* background: -webkit-linear-gradient(#eee, #333); */
+    /* --webkit-background-clip: text; */
+    /* --webkit-text-fill-color: transparent; */
+
+    text-decoration: none;
+}
+
+.link {
+    text-decoration: none;
+    color: aquamarine;
+}
+
+.SearchModule :is(input, button) {
+    padding: 5px;
+    width: 250px;
+    height: 40px;
+    border-radius: 7px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.SearchModule button {
+    margin: 0px 15px;
+    color: black;
+    background: aquamarine;
+    width: 100px;
+}
+
+.SearchModule button:hover{
+    background: red;
+    color: aquamarine;
+}

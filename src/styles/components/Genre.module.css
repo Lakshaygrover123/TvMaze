@@ -1,0 +1,25 @@
+.Conatiner {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow-x: scroll;
+    width: 100%;
+}
+
+.Conatiner::-webkit-scrollbar {
+    display: none;
+}
+
+.img {
+    width: 150px;
+    height: 200px;
+    padding: 20px;
+    margin: 0px 10px;
+    cursor: pointer;
+}
+
+.img:hover {
+    /* transition: scale(1.1); */
+    scale: 1.2;
+    transition: all 350ms ease-in-out;
+}

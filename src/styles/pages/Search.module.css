@@ -1,0 +1,20 @@
+.Container{
+    background: black;
+    color: white;
+    text-align: center;
+}
+
+.Container h2{
+    font-size: 40px;
+    margin: 20px 0px;
+    font-weight: 700;
+}
+
+.Grid{
+    width: 80%;
+    margin: 20px auto;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
