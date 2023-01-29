@@ -1,6 +1,6 @@
 import axios from 'axios';
 import React, { useEffect, useState } from 'react'
-import { useParams,Link } from 'react-router-dom'
+import { useParams } from 'react-router-dom'
 import classes from "../styles/pages/Search.module.css";
 
 function Search() {
@@ -21,10 +21,10 @@ function Search() {
                 {movies && movies.map((data) => {
                     return (
                         <div key={data.show.id}>
-                            <Link to="/details" state={{from:data}}>
+                            {/* <Link to="/details" state={{from:data}}> */}
                                 <img src={data.show.image ? data.show.image.medium : null} alt={data.show.name} />
                                 <h3>{data.show.name}</h3>
-                            </Link>
+                            {/* </Link> */}
                         </div>
                     )
                 })}
